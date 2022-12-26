@@ -1,0 +1,23 @@
+
+$blue: #0a192f;
+$green: #5ff1d0;
+$grey: #ccd6f6;
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+
+// header height
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+  @if $point == md {
+    //
+    @media (min-width: 48em) {
+      @content;
+    }
+  }
+}

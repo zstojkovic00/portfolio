@@ -1,0 +1,7 @@
+colors: 
+
+
+zelena #5ff1d0;
+plava #0a192f;
+siva #ccd6f6;
+plava2: #112240;
