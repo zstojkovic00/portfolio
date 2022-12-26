@@ -1,0 +1,63 @@
+.project {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project h1 {
+  margin-top: 150px;
+  color: #ccd6f6;
+  font-size: 30px;
+}
+
+.project video {
+  width: 60%;
+  animation: backInDown;
+  margin-top: 1%;
+  animation-duration: 1s;
+  
+}
+.project p {
+  font-size: 30px;
+  color: #ccd6f6;
+}
+
+.project svg {
+  font-size: 50px;
+  color: #ccd6f6;
+}
+
+.project svg:focus{
+  outline: none;
+}
+.project svg:active{
+  color: #5ff1d0;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  width:85%;
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  .project video{
+    width: 95%;
+    margin-bottom: 20%;
+    margin-top: 10%;
+  }
+
+
+
+
+}
